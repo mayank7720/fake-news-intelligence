@@ -1515,18 +1515,29 @@ def page_about():
             )
 
     # ── Author / links ──────────────────────────────────────────────
+    author_name = "Mayank Raj"
+    github_url = "https://github.com/mayank7720/fake-news-intelligence"
+    docs_url = "https://github.com/mayank7720/fake-news-intelligence/tree/main/docs"
+    contact_email = "mayankraj7720@gmail.com"
+
     st.markdown("<hr class='divider'>", unsafe_allow_html=True)
     st.markdown(
         f"""
         <div class="glass-card" style="text-align:center;padding:28px;">
-            <div style="font-size:1.1rem;font-weight:700;color:#fff;margin-bottom:6px;">👤 Author</div>
+            <div style="font-size:1.1rem;font-weight:700;color:#fff;margin-bottom:6px;">👤 {author_name}</div>
             <div style="color:{MUTED};font-size:.88rem;margin-bottom:12px;">
                 Built as part of an AI / ML internship showcase project.
             </div>
             <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
-                <span class="tag-real">📂 GitHub Repository</span>
-                <span class="tag-real">📄 Documentation</span>
-                <span class="tag-real">📧 Contact</span>
+                <a href="{github_url}" target="_blank" style="text-decoration:none;">
+                    <span class="tag-real">📂 GitHub Repository</span>
+                </a>
+                <a href="{docs_url}" target="_blank" style="text-decoration:none;">
+                    <span class="tag-real">📄 Documentation</span>
+                </a>
+                <a href="mailto:{contact_email}" style="text-decoration:none;">
+                    <span class="tag-real">📧 Contact</span>
+                </a>
             </div>
         </div>
         """,
