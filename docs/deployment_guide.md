@@ -152,6 +152,9 @@ Streamlit Community Cloud is the fastest way to share this portfolio project for
 3. Select your repository, branch, and specify `app.py` as the main entry point.
 4. Click **Deploy**. Streamlit Cloud will parse `requirements.txt`, spin up a secure container, execute NLTK downloads on import, and host your application publicly.
 
+The official live version of the application is hosted at:
+👉 **[Fake News Intelligence System](https://fake-news-intelligence-ecvawhkgxfilrbw6pnentc.streamlit.app/)**
+
 ---
 
 ## 4. Troubleshooting & Production Considerations

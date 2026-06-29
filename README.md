@@ -1,5 +1,7 @@
 # Fake News Intelligence
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fake-news-intelligence-ecvawhkgxfilrbw6pnentc.streamlit.app/)
+
 Fake News Intelligence is a Python-based news analysis project that classifies article text as REAL or FAKE and provides supporting analysis signals such as sentiment, clickbait likelihood, and credibility scoring.
 
 The project includes:
